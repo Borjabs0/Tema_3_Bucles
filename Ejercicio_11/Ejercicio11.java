@@ -13,14 +13,12 @@ public class Ejercicio11 {
         		numero = scanner.nextInt();
 			suma += numero; 
 			contador = contador + 1; 
-			media = (double) (suma/contador);
-
-				if(numero>0){
+				if(numero>=0){
 					System.out.println("El numero tiene que ser negativo para que finalice el processo");
 				}
       
-        	}while(numero>0);
-
+        	}while(numero>=0);
+	media = suma/contador;
     	System.out.println("La media es = " + media);
 	}
 }
