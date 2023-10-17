@@ -13,7 +13,7 @@ public class Ejercicio12{
 			for (intentos = 1; intentos <= 5; intentos++){
 				System.out.println("Ingrese un número: ");
         			numero = Integer.parseInt(scanner.nextLine());
-				aleatorio = random.nextInt(1);
+				aleatorio = random.nextInt(100 - 1) + 1;
 				if (aleatorio == numero){
 					System.out.println("El numero es corecto ");
 					break;
